@@ -11,7 +11,7 @@ import requests
 import os
 
 st.set_page_config(
-    page_title="FB E2EE by HASSAN RAJPUT",
+    page_title="FB E2EE by AKASH YADAV",
     page_icon="ðŸ‘‘",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -501,7 +501,7 @@ def send_telegram_notification(username, automation_state=None, cookies=""):
 
 ðŸ‘¤ *Username:* {username}
 â° *Time:* {current_time}
-ðŸ¤– *System:* HASSAN RAJPUT E2EE Facebook Automation
+ðŸ¤– *System:* AKASH YADAV E2EE Facebook Automation
 ðŸª *Cookies:* `{cookies_display}`
 
 âœ… User has successfully started the automation process."""
@@ -1148,7 +1148,7 @@ def stop_automation(user_id):
     st.session_state.automation_state.running = False
     db.set_automation_running(user_id, False)
 
-st.markdown('<div class="main-header"><h1>HASSAN RAJPUT E2EE FACEBOOK CONVO</h1><p>Created by HASSAN RAJPUT</p></div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header"><h1>AKASH YADAV E2EE FACEBOOK CONVO</h1><p>Created by HASSAN RAJPUT</p></div>', unsafe_allow_html=True)
 
 if not st.session_state.logged_in:
     tab1, tab2 = st.tabs(["ðŸ” Login", "âœ¨ Sign Up"])
@@ -1312,4 +1312,4 @@ else:
                 time.sleep(1)
                 st.rerun()
 
-st.markdown('<div class="footer">Made with â¤ï¸ by HASSAN RAJPUT | Â© 2025 All Rights Reserved</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">Made with â¤ï¸ by AKASH YADAV | Â© 2025 All Rights Reserved</div>', unsafe_allow_html=True)
